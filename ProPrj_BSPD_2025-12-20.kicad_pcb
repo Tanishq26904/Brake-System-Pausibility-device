@@ -14674,17 +14674,6 @@
 			)
 		)
 	)
-	(gr_rect
-		(start 77.67 33.07)
-		(end 207.51 93.9)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "221bc282-0373-40ae-9ee5-51018f53c80f")
-	)
 	(gr_poly
 		(pts
 			(xy 111.28393 67.451378) (xy 111.309594 67.952569) (xy 111.474255 68.028507) (xy 111.638285 67.957631)
@@ -15340,6 +15329,17 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "fe3597aa-93c7-4bda-a568-9505b6d03d4c")
+	)
+	(gr_rect
+		(start 77.67 33.07)
+		(end 207.51 93.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "221bc282-0373-40ae-9ee5-51018f53c80f")
 	)
 	(segment
 		(start 100.236 59.53425)
